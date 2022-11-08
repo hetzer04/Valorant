@@ -71,6 +71,7 @@ section {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .about-game__block-text{
     padding: 25px;
@@ -124,6 +125,7 @@ section {
 }
 .decoretion{
     color: rgb(207, 207, 207);
+    user-select: none;
 }
 .section__second__bg{
     background-color: #ece8e1;
@@ -275,6 +277,10 @@ section {
     width: 100%;
     overflow: hidden;
     background-image: url("src/agent-background-generic.JPG");
+}
+.decoretion_2{
+    color: rgb(75, 75, 75);
+    user-select: none;
 }
 .agents{
     position: absolute;
