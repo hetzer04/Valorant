@@ -63,6 +63,8 @@ section {
     position: relative;
     height: 600px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .about-game{
     position: absolute;
