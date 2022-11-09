@@ -33,6 +33,7 @@ section {
     height: 125px;
     background-image: url(src/logo.png);
     background-size: cover;
+    user-select: none;
 }
 .nav_a{
     padding: 10px 25px;
@@ -98,6 +99,7 @@ section {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    user-select: none;
     background-color: #ece8e1;
     padding: 10px;
     position: relative;
@@ -139,6 +141,7 @@ section {
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .bg-span{
     font-size: 30rem;
@@ -205,6 +208,9 @@ section {
     bottom: 0;
     height: 50px;
 }
+.new__img_2 > img{
+    user-select: none;
+}
 .news__block-text{
     padding: 15px 0;
 }
@@ -239,6 +245,7 @@ section {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    user-select: none;
     background-color: #0e1921;
     padding: 10px;
     position: relative;
@@ -663,10 +670,10 @@ section {
 }
 @media (max-width: 437px){
     .section__first__bg{
-        height: 800px;
+        height: 825px;
     }
     .about-game{
-        height: 800px;
+        height: 825px;
     }
 }
 @media (max-width: 417px) {
@@ -712,10 +719,10 @@ section {
 }
 @media (max-width: 375px) {
     .section__first__bg{
-        height: 700px;
+        height: 725px;
     }
     .about-game{
-        height: 700px;
+        height: 725px;
     }
     .about-game__h1{
         font-size: 3.3rem;
@@ -731,6 +738,9 @@ section {
     }
     .about-game__block-text{
         padding: 0 5px;
+    }
+    .nav_a{
+        font-size: 1.8rem;
     }
 }
 @media (max-width: 360px) {
@@ -757,6 +767,14 @@ section {
     iframe{
         width: 300px;
         height: 190px;
+    }
+}
+@media (max-width: 330px) {
+    .section__three__bg{
+        height: 700px;
+    }
+    .agents{
+        height: 700px;
     }
 }
 @media (max-width: 325px) {
@@ -796,7 +814,7 @@ section {
         height: 90px;
     }
 }
-@media (max-width: 314px) {
+@media (max-width: 312px) {
     .section__second__bg{
         height: 800px;
     }
@@ -805,6 +823,14 @@ section {
     }
     .agents_h1{
         font-size: 2.8rem;
+    }
+}
+@media (max-width: 318px) {
+    .section__three__bg{
+        height: 725px;
+    }
+    .agents{
+        height: 725px;
     }
 }
 @media (max-width: 303px) {
@@ -885,5 +911,19 @@ section {
     }
     .about-game{
         height: 780px;
+    }
+}
+@media (max-width: 268px) {
+    .nav{
+        height: 300px;
+    }
+    .nav_a{
+        font-size: 3.5rem;
+    }
+    .about-game__h1{
+        font-size: 2.6rem;
+    }
+    .about-game__h2{
+        font-size: 2.4rem;
     }
 }
